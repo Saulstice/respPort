@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saul Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+         <!-- Nav Bar -->
+         <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="#">Saul</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" >About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html" >Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/xsaul/" target="_blank">LinkedIn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Saulstice" target="_blank">GitHub</a>
+                  </li>
+                  
+              </ul>
+            </div>
+          </nav>
+
+            <!-- Background video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="World.mp4" type="video/mp4">
+    </video>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 head">
+                <h1>Portfolio</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="portfolio"> 
+          <div class="row" class="justify-content-sm-center">
+              <div class="col-sm-4">
+                <div class="card">
+                    <img src="rock.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Game</h5>
+                      <p class="card-text">Rock, paper, scissors game made using JavaScript.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                    <img src="cal.png" class="card-img-top" alt="cal">
+                    <div class="card-body">
+                      <h5 class="card-title">Scheduling Widget</h5>
+                      <p class="card-text">Widget that helps people stay on top of their schedule with reminders.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row row1" class="justify-content-md-center">
+            <div class="col-sm-4 coll">
+              <div class="card">
+                  <img src="git.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Github</h5>
+                    <p class="card-text">Github page showcasing some of my projects.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4 coll">
+              <div class="card">
+                  <img src="spot.png" class="card-img-top" alt="cal">
+                  <div class="card-body">
+                    <h5 class="card-title">Song Database</h5>
+                    <p class="card-text">Searchable SQL database with song statistics.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

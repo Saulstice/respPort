@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color: white;
+}
+nav {
+    position: fixed;
+    bottom:25px;
+  }
+  nav, .navbar-brand {
+      font-family: 'Roboto', sans-serif;
+      background-color: transparent;
+      color: white;
+      font-size: 20px;
+      position: relative;
+  }
+
+  #bioPage, #hobPage {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    height: 500px;
+}
+.col1 {
+    font-size: 40px;
+}
+.col2 {
+    border-left: solid 2px white;
+}
+
+.card {
+    color: white;
+    background: transparent;
+    border: solid 1px white;
+}
+.head {
+    font-family: 'Roboto', sans-serif;
+}
+
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    min-width: 90%;
+    min-height: 90%;
+    width: 50%;
+    height: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+.intro {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top:20%;
+    background: transparent;
+    clear:left;
+  }
+  .intro h2 {
+      font-style: italic;
+  }
+  .name {
+    font-size: 90px;
+  }
+  .card-title {
+    text-align: center;
+}
+#bb {
+    position: relative;
+    top: 20px;
+}
+.soccer {
+    width:100%;
+    height: 100%;
+}
+.card-deck {
+    color: white;
+    width: 35%;
+    float: right;
+    background: black;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.card-body {
+    background: black;
+}
+.card {
+    border: solid 1px gray;
+    background-color: black;
+    margin: 10px;
+}
+.card:hover{
+    border: solid 3px white;
+}
+.card-img-top {
+    background-color: black;
+}
+.dna {
+    position: relative;
+    left: 40px;
+    top:25px;
+    height:60%;
+    width:60%;
+    background-color: black;
+}
